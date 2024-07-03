@@ -1,0 +1,6 @@
+<button class="nv00-gnb__utility-btn gnb__search-btn-js" an-tr="nv00_gnb-1depth-navigation2" an-ca="navigation" an-ac="gnb" an-la="search" data-di-id="di-id-93d68ff-f725af4e" aria-label="Search" aria-expanded="false">
+			<span class="hidden">Search</span>
+			<svg class="icon" focusable="false" aria-hidden="true" data-di-rand="1719431966444" role="presentation" tabindex="-1">
+				<use xlink:href="#search-bold" href="#search-bold"></use>
+			</svg>
+		</button>
