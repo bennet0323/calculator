@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container here -->
+    <div class="container">
+        <div class="calc-text">
+            <p id="calculator-value">0</p>
+        </div>
+        <div class="calc-keys">
+            <button onclick="onclickbuttonAC()" class="key-others operations">AC</button>
+            <button type="button" class="key-others operations">DEL</button>
+            <button type="button" class="key-others operations">%</button>
+            <button onclick="onclickDivide()" class="key-operate operations">/</button>
+            <button onclick="onclickbuttonSeven()" class="numbers">7</button>
+            <button onclick="onclickbuttonEight()" class="numbers">8</button>
+            <button onclick="onclickbuttonNine()" class="numbers">9</button>
+            <button onclick="onclickMultiply()" class="key-operate operations">*</button>
+            <button onclick="onclickbuttonFour()" class="numbers">4</button>
+            <button onclick="onclickbuttonFive()" class="numbers">5</button>
+            <button onclick="onclickbuttonSix()" class="numbers">6</button>
+            <button onclick="onclickMinus()" class="key-operate operations">-</button>
+            <button onclick="onclickbuttonOne()" class="numbers">1</button>
+            <button onclick="onclickbuttonTwo()" class="numbers">2</button>
+            <button onclick="onclickbuttonThree()" class="numbers">3</button>
+            <button onclick="onclickAdd()" class="key-operate operations">+</button>
+            <button onclick="onclickbuttonZero()" class="key-zero numbers">0</button>
+            <button type="button" class="numbers">.</button>
+            <button onclick="calculate()" class="key-operate operations">=</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
